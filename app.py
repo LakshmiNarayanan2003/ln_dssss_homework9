@@ -38,7 +38,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         print(f"Error: {e}")
 
 if __name__ == "__main__":
-    TOKEN = "7540990753:AAHIelzFwQSM1GTXiNuxf3gNNTORnYnAIGQ"  # Replace with your actual bot token
+    TOKEN = "YOUR_TOKEN"  # Replace with your actual bot token
 
     # Create the bot application
     app = ApplicationBuilder().token(TOKEN).build()
